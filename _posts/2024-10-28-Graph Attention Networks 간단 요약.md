@@ -15,9 +15,8 @@ title:  "Graph Attention Networks"
 
 
 
-아아 라ㅓ
-(쉬프트엔터)
-
+쉬프트엔터
+쉬프트엔터
 
 
 
