@@ -13,20 +13,27 @@
 ### Architecture
 
 1. Linear Transformation 
+
    ✔️ 노드의 input feature을 고차원으로 변형하기 위해 선형 변환을 해줌
-   
+
 2. Concatenation and Attention Mechanism
+
    ✔️ 두 노드의 feature을 concatenation한 다음 학습 가능한 가중치 a를 사용해 내적
+
    ✔️ 비선형변환 LeakyReLU를 통과시켜 attention coefficient e_ij 계산 (unnormalized)
 
 3. normalization을 위한 softmax
+
    ✔️최종 attention coefficient를 얻기 위해 softmax 통과시켜 정규화
 
 4. 노드 업데이트
+
    ✔️이웃 노드 feature을 attention score로 가중 평균하여 sum한 다음 sigmoid를 통과시켜 최종 노드 feature을 얻음
 
 5. Multi head attention
+
    ✔️K개의 attention을 수행한 다음 K개의 결과를 concatenation
+
    ✔️단, 최종 layer 에서 concatenation은 적합하지 않고 averaging한 다음 sigmoid를 마지막에 적용
 
 
