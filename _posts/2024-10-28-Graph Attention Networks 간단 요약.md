@@ -1,3 +1,10 @@
+---
+layout: single
+title:  "Graph Attention Networks"
+---
+
+
+
 ## Graph Attention Networks
 
 오래된 논문이라 아주 심플하게 정리해봤다요
