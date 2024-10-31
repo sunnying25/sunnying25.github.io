@@ -11,6 +11,15 @@ title:  "Graph Attention Networks"
 
 원문에 나온 git에서 따라해보려고했는데 tensorflow 1이라니.. 
 
+(엔터)
+
+
+
+아아 라ㅓ
+(쉬프트엔터)
+
+
+
 
 
 출처 : Veličković, Petar, et al. "Graph attention networks." *arXiv preprint arXiv:1710.10903* (2017).
