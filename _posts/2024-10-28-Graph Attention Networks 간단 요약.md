@@ -1,20 +1,10 @@
----
-layout: single
-title:  "Graph Attention Networks"
----
-
-
-
 ## Graph Attention Networks
-
-오래된 논문이라 아주 심플하게 정리해봤다요 <br/>원문에 나온 git에서 따라해보려고했는데 tensorflow 1이라니.. 
-
+오래된 논문이라 아주 심플하게 정리해봤다요. 원문에 나온 git에서 따라해보려고했는데 tensorflow 1이라니.. 
 출처 : Veličković, Petar, et al. "Graph attention networks." *arXiv preprint arXiv:1710.10903* (2017).
 
 
 
-### 요약<br/>
-
+### 요약
 * 가벼운 계산으로 이웃 내 서로 다른 노드에 대해 다른 가중치를 지정할 수 있도록 함
 * Cora, Citesser, Pubmed 등 다양한 데이터 셋에서 SOTA 성능 달성
 
