@@ -18,7 +18,7 @@
 
 2. Concatenation and Attention Mechanism
 
-   ✔️ 두 노드의 feature을 concatenation한 다음 학습 가능한 가중치 a를 사용해 내적
+   ✔️ 두 노드의 feature을 concatenation한 다음 학습 가능한 가중치 a를 사용해 내적  
 
    ✔️ 비선형변환 LeakyReLU를 통과시켜 attention coefficient e_ij 계산 (unnormalized)
 
