@@ -33,3 +33,7 @@ ex. 2024-10-31-CGCNN.md
 
 
 
+## Insert Latex
+
+포스팅 상단에 use_math: true 입력
+
